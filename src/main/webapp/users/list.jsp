@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ggrzs
-  Date: 13.05.2023
-  Time: 11:31
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -109,9 +103,9 @@
                             <td>${user.userName}</td>
                             <td>${user.email}</td>
                             <td>
-<%--                                <a href='<c:url value="/user/delete?id=${user.id}"/>'>Usuń</a>--%>
-<%--                                <a href='<c:url value="/user/edit?id=${user.id}"/>'>Edit</a>--%>
-<%--                                <a href='<c:url value="/user/show?id=${user.id}"/>'>Pokaż</a>--%>
+                                <a href='<c:url value="/user/delete?id=${user.id}"/>'>Usuń</a>
+                                <a href='<c:url value="/user/edit?id=${user.id}"/>'>Edit</a>
+                                <a href='<c:url value="/user/show?id=${user.id}"/>'>Pokaż</a>
                             </td>
                         </tr>
                     </c:forEach>
@@ -121,7 +115,6 @@
 
     </div>
     <!-- /.container-fluid -->
-
 </div>
 <!-- End of Main Content -->
 
