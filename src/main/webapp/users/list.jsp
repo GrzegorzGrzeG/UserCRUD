@@ -54,7 +54,7 @@
 
         <!-- Sidebar Toggler (Sidebar) -->
         <div class="text-center d-none d-md-inline">
-            <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            <button class="rounded-circle border-0" id="sidebarToggle" type="button" onclick="location.href='/user/list'"></button>
         </div>
 
 
@@ -89,7 +89,6 @@
                     <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                             class="fas fa-download fa-sm text-white-50"></i> Add new User</a>
                 </div>
-                <p>test</p>
                 <table class="table">
                     <tr>
                         <th>Id</th>
